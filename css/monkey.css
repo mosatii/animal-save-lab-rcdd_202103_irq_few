@@ -1,0 +1,19 @@
+html {
+  background: url(../images/spice-girls.jpg) no-repeat top left;
+}
+
+#monkey {
+  position: absolute;
+  top: 550px;
+  right: 120px;
+}
+
+/* Write your solution here */
+
+@media screen and (max-width: 1170px) and (min-width: 406px) {
+  #monkey {
+    position: absolute;
+    top: 0px;
+    right: 120px;
+  }
+}
